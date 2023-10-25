@@ -1,0 +1,13 @@
+{
+  "name": "myInfScroll",
+  "version": "1.0",
+  "description": "",
+  "permissions": ["scripting", "activeTab"],
+  "manifest_version": 2,
+  "browser_action": {
+  },
+  "background": {
+    "scripts": ["test.js"],
+    "persistent": false
+  }
+}
